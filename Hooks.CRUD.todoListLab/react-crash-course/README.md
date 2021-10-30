@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 布魯斯前端 所教學的範本，自己也做一個，並加上React-bootstrap
+## 概述說明
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+布魯斯前端 所教學的範本，自己也做一個，並加上React-bootstrap ，將相關技術和內容記錄下來，在未來的時候，可以使用到這個Lab
 
-## Available Scripts
+## 文章網址：
+[https://stevenjhu.com/2021/10/30/reactcrud-%e5%82%99%e5%bf%98%e9%8c%84-%e7%af%84%e6%9c%ac/](https://stevenjhu.com/2021/10/30/reactcrud-%e5%82%99%e5%bf%98%e9%8c%84-%e7%af%84%e6%9c%ac/)
 
-In the project directory, you can run:
+## 如何啟用這個範例
 
-### `npm start`
+1.用`VS CODE` 打開到範例資料夾
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.在終端機(cmd)下 `npm install`指令，開始在資料夾下安裝npm
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2.在終端機(cmd)下 `npm run server` 指令，會啟動一個簡易的資料庫後端JSON
 
-### `npm test`
+3. 在終端機(cmd)下 `npm run start` 指令，會詢問是否要創立不同的port去啟動，選擇Y
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.啟用範本
 
-### `npm run build`
+## 特別技術、函示庫
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React-Bootstrap
+https://react-bootstrap.github.io/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+json-server
+在不到 30 秒的時間內（認真地）獲得零編碼的完整假 REST API 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://www.npmjs.com/package/json-server
 
-### `npm run eject`
+prettier
+代碼變漂亮格式化程序
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+https://www.npmjs.com/package/prettier
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+UUID
+用於創建 RFC4122 UUID
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+https://www.npmjs.com/package/uuid
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 執行畫面
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Image of screenshots 1](https://stevenjhu.com/wp-content/uploads/2021/10/image-4-1536x820.png)
