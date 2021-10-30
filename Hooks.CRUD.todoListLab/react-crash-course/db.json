@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "data": [
+        {
+          "id": "62399447-721d-4801-9dd4-ebb4ca714dfe",
+          "note": "64311",
+          "date": "2021-10-09",
+          "time": "21:14"
+        },
+        {
+          "id": "4d228cd7-f222-4270-8d74-9cb0eee90dde",
+          "note": "643",
+          "date": "2021-10-09",
+          "time": "21:14"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
