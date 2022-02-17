@@ -26,7 +26,7 @@ import MeetupList from '../components/meetups/MeetupList';
     const [loadedMeetups,setLoadedMeetups]=useState([]);
     // useEffect解決無限迴圈
     useEffect(()=>{
-      fetch("http://localhost:3000/posts")
+      fetch("http://127.0.0.1:3000/posts")
       .then((res)=>{
         return res.json();
       })
